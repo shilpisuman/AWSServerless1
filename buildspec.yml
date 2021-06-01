@@ -3,6 +3,7 @@ phases:
  install:
   commands:
    - ls
+   - cd ./AWSServerless1
    - aws cloudformation package --template-file serverless.template --s3-bucket shilpitestlambda123 --output-template-file outputSamTemplate.yaml
 artifacts:
  type: zip
