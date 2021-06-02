@@ -11,14 +11,14 @@ namespace AWSServerless1.Controllers
     public class ShoppingListController : ControllerBase
     {
         private readonly IShoppingListService _shoppingListService;
-        ////private readonly AmazonDynamoDBClient _client;
-       // private readonly DynamoDBContext _context;
+       // ////private readonly AmazonDynamoDBClient _client;
+       //// private readonly DynamoDBContext _context;
 
-        public ShoppingListController()
-        {
-            //_client = new AmazonDynamoDBClient();
-            //_context = new DynamoDBContext(_client);
-        }
+       // public ShoppingListController()
+       // {
+       //     //_client = new AmazonDynamoDBClient();
+       //     //_context = new DynamoDBContext(_client);
+       // }
 
         public ShoppingListController(IShoppingListService shoppingListService)
         {
