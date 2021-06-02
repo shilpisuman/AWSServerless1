@@ -10,7 +10,7 @@
       "Properties": {
         "Handler": "AWSServerless1::AWSServerless1.LambdaEntryPoint::FunctionHandlerAsync",
         "Runtime": "dotnetcore3.1",
-        "CodeUri": "./AWSServerless1",
+        "CodeUri": "bin/Release/netcoreapp3.1/publish/",
         "MemorySize": 256,
         "Timeout": 30,
         "Role": null,
